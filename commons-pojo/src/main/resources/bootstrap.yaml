@@ -1,0 +1,17 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+        namespace: c7082b07-5d85-4961-be6d-b8365d8122bb
+        group: gohome
+      config:
+        server-addr: 127.0.0.1:8848
+        namespace: c7082b07-5d85-4961-be6d-b8365d8122bb
+        file-extension: yaml
+jasypt:
+  encryptor:
+    property:
+      prefix: "decrypt["
+      suffix: "]"
+    password: encrypass

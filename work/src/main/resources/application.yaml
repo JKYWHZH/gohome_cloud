@@ -1,0 +1,15 @@
+server:
+  port: 8889
+spring:
+  application:
+    name: work-service
+  mvc:
+    static-path-pattern: /**
+    hiddenmethod:
+      filter:
+        enabled: true
+mail:
+  receivers: '于奎涛: 1459047098@qq.com'
+  zipPath: /home/jkywhzh/work/
+    #zipPath: D:\\csixframework\\uploadPath\\file\\
+  type: jpg,jpeg,png,bmp,zip

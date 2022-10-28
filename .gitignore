@@ -1,0 +1,5 @@
+# Project exclude paths
+/commons-pojo/target/
+/discern/target/
+/mail/target/
+/work/target/

@@ -1,0 +1,7 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: mail-service
+mail:
+  receivers: '于奎涛: 1459047098@qq.com'
